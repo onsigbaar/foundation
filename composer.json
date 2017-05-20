@@ -1,12 +1,12 @@
 {
-  "name"        : "consigliere/foundation",
+  "name"        : "onsigbaar/foundation",
   "type"        : "library",
-  "description" : "Foundation Consigliere",
+  "description" : "Foundation Onsigbaar",
   "keywords"    : [
-    "Consigliere",
+    "Onsigbaar",
     "Foundation"
   ],
-  "homepage"    : "https://github.com/consigliere/foundation",
+  "homepage"    : "https://github.com/onsigbaar/foundation",
   "license"     : "MIT",
   "authors"     : [
     {
@@ -20,7 +20,7 @@
     "php"                      : "~5.6|~7.0",
     "illuminate/support"       : "5.1.*|5.2.*|5.3.*|5.4.*",
     "illuminate/contracts"     : "5.1.*|5.2.*|5.3.*|5.4.*",
-    "consigliere/components"   : "0.3.*",
+    "onsigbaar/components"     : "0.1.*",
     "jeroen-g/laravel-packager": "^1.5"
   },
   "require-dev" : {
@@ -29,12 +29,12 @@
   },
   "autoload"    : {
     "psr-4": {
-      "Consigliere\\Foundation\\": "src"
+      "Onsigbaar\\Foundation\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Consigliere\\Foundation\\": "tests"
+      "Onsigbaar\\Foundation\\": "tests"
     }
   },
   "scripts"     : {
