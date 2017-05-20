@@ -28,13 +28,13 @@ vendor/
 Via Composer
 
 ``` bash
-$ composer require consigliere/foundation
+$ composer require onsigbaar/foundation
 ```
 
 ## Usage
 
 ``` php
-$skeleton = new Consigliere\Foundation();
+$skeleton = new Onsigbaar\Foundation();
 echo $skeleton->echoPhrase('Hello, League!');
 ```
 
@@ -65,17 +65,17 @@ If you discover any security related issues, please email 50c5ac69@opayq.com ins
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/consigliere/foundation.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/onsigbaar/foundation.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/consigliere/foundation/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/consigliere/foundation.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/consigliere/foundation.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/consigliere/foundation.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/onsigbaar/foundation/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/onsigbaar/foundation.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/onsigbaar/foundation.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/onsigbaar/foundation.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/consigliere/foundation
-[link-travis]: https://travis-ci.org/consigliere/foundation
-[link-scrutinizer]: https://scrutinizer-ci.com/g/consigliere/foundation/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/consigliere/foundation
-[link-downloads]: https://packagist.org/packages/consigliere/foundation
-[link-author]: https://github.com/consigliere
+[link-packagist]: https://packagist.org/packages/onsigbaar/foundation
+[link-travis]: https://travis-ci.org/onsigbaar/foundation
+[link-scrutinizer]: https://scrutinizer-ci.com/g/onsigbaar/foundation/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/onsigbaar/foundation
+[link-downloads]: https://packagist.org/packages/onsigbaar/foundation
+[link-author]: https://github.com/onsigbaar
 [link-contributors]: ../../contributors

@@ -1,6 +1,6 @@
 <?php
 
-namespace Consigliere\Foundation;
+namespace Onsigbaar\Foundation;
 
 use ReflectionClass;
 use Illuminate\Foundation\AliasLoader;
@@ -15,7 +15,7 @@ class FoundationServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $componenentsFileName = with(new ReflectionClass('\Consigliere\Foundation\FoundationServiceProvider'))->getFileName();
+        $componenentsFileName = with(new ReflectionClass('\Onsigbaar\Foundation\FoundationServiceProvider'))->getFileName();
         $componenentsPath     = dirname($componenentsFileName);
 
         // $this->loadViewsFrom($componenentsPath . '/../../resources/views', 'foundation');
@@ -30,11 +30,11 @@ class FoundationServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->register(\Consigliere\Components\ServiceProvider::class);
+        $this->app->register(\Onsigbaar\Components\ServiceProvider::class);
         $this->app->register(\JeroenG\Packager\PackagerServiceProvider::class);
 
         // Load the Facade aliases
         $loader = AliasLoader::getInstance();
-        $loader->alias('Component', \Consigliere\Components\Facades\Component::class);
+        $loader->alias('Component', \Onsigbaar\Components\Facades\Component::class);
     }
 }
