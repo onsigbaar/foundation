@@ -1,6 +1,6 @@
 <?php
 
-namespace Onsigbaar\Foundation;
+namespace Onsigbaar\Foundation\Providers;
 
 use ReflectionClass;
 use Illuminate\Foundation\AliasLoader;
@@ -15,7 +15,7 @@ class FoundationServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $componenentsFileName = with(new ReflectionClass('\Onsigbaar\Foundation\FoundationServiceProvider'))->getFileName();
+        $componenentsFileName = with(new ReflectionClass('\Onsigbaar\Foundation\Providers\FoundationServiceProvider'))->getFileName();
         $componenentsPath     = dirname($componenentsFileName);
 
         // $this->loadViewsFrom($componenentsPath . '/../../resources/views', 'foundation');
