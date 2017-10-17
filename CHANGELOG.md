@@ -2,7 +2,28 @@
 
 All Notable changes to `foundation` will be documented in this file.
 
-Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## 0.4.2 - 2017-10-18
+
+### Added
+- Nothing
+
+### Deprecated
+- Nothing
+
+### Fixed
+- Nothing
+
+### Removed
+- Modules package
+
+### Security
+- Nothing
+
 
 ## 0.4.1 - 2017-10-12
 
