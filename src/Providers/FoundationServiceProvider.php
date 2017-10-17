@@ -31,7 +31,6 @@ class FoundationServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->register(\Onsigbaar\Components\ServiceProvider::class);
-        $this->app->register(\Onsigbaar\Modules\ServiceProvider::class);
         $this->app->register(\JeroenG\Packager\PackagerServiceProvider::class);
 
         // Load the Facade aliases

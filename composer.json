@@ -21,7 +21,6 @@
     "illuminate/support"       : "5.5.*",
     "illuminate/contracts"     : "5.5.*",
     "onsigbaar/components"     : "0.4.*",
-    "onsigbaar/modules"        : "0.1.*",
     "jeroen-g/laravel-packager": "^1.5"
   },
   "require-dev" : {
