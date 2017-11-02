@@ -20,7 +20,7 @@
     "php"                      : ">=7.0.0",
     "illuminate/support"       : "5.5.*",
     "illuminate/contracts"     : "5.5.*",
-    "onsigbaar/components"     : "0.4.*",
+    "onsigbaar/components"     : "0.5.*",
     "jeroen-g/laravel-packager": "^1.5"
   },
   "require-dev" : {
