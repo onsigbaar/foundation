@@ -32,6 +32,7 @@ class FoundationServiceProvider extends ServiceProvider
     {
         $this->app->register(\Onsigbaar\Components\ServiceProvider::class);
         $this->app->register(\JeroenG\Packager\PackagerServiceProvider::class);
+        $this->app->register(\Onsigbaar\Foundation\HttpResponse\Providers\JsendResponseMacroServiceProvider::class);
 
         // Load the Facade aliases
         $loader = AliasLoader::getInstance();
