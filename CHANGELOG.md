@@ -7,6 +7,42 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## 0.5.0 - 2018-02-03
+
+### Added
+- Added Base Directory
+
+### Deprecated
+- Nothing
+
+### Fixed
+- Nothing
+
+### Removed
+- Remove Exception directory
+- Remove Providers directory
+
+### Security
+- Nothing
+
+## 0.4.4 - 2018-01-28
+
+### Added
+- Added Exception directory
+- Added HttpResponse directory
+
+### Deprecated
+- Nothing
+
+### Fixed
+- Nothing
+
+### Removed
+- Nothing
+
+### Security
+- Nothing
+
 ## 0.4.3 - 2017-11-03
 
 ### Added
