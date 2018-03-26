@@ -18,4 +18,13 @@ trait ErrorLog
         Log::error($error->getLine());
         Log::error($error->getTraceAsString());
     }
+
+    public function logMessage($error)
+    {
+        Log::error($error->getMessage());
+        Log::error($error->getCode());
+        Log::error($error->getFile());
+        Log::error($error->getLine());
+        Log::error($error->getTraceAsString());
+    }
 }
