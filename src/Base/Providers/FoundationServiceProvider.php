@@ -17,10 +17,6 @@ class FoundationServiceProvider extends ServiceProvider
     {
         $componenentsFileName = with(new ReflectionClass('\Onsigbaar\Foundation\Base\Providers\FoundationServiceProvider'))->getFileName();
         $componenentsPath     = dirname($componenentsFileName);
-
-        // $this->loadViewsFrom($componenentsPath . '/../../../resources/views', 'foundation');
-
-        // include $componenentsPath . '/../../routes.php';
     }
 
     /**
@@ -30,12 +26,11 @@ class FoundationServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->register(\Onsigbaar\Components\ServiceProvider::class);
-        $this->app->register(\JeroenG\Packager\PackagerServiceProvider::class);
+        $this->app->register(\Onsigbaar\Components\LaravelModulesServiceProvider::class);
         $this->app->register(\Onsigbaar\Foundation\HttpResponse\Providers\JsendResponseMacroServiceProvider::class);
 
         // Load the Facade aliases
         $loader = AliasLoader::getInstance();
-        $loader->alias('Component', \Onsigbaar\Components\Facades\Component::class);
+        $loader->alias('Component', \Onsigbaar\Components\Facades\Module::class);
     }
 }
