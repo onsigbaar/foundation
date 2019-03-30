@@ -23,11 +23,8 @@
     "nwidart/laravel-modules": "^5.0"
   },
   "require-dev" : {
-    "phpunit/phpunit"             : "^7.0",
-    "squizlabs/php_codesniffer"   : "^2.3",
-    "jeroen-g/laravel-packager"   : "^2.1",
-    "orangehill/iseed"            : "^2.6",
-    "xethron/migrations-generator": "^2.0"
+    "phpunit/phpunit"          : "^7.0",
+    "squizlabs/php_codesniffer": "^2.3"
   },
   "autoload"    : {
     "psr-4": {
