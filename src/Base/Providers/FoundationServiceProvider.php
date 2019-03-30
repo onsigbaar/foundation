@@ -26,11 +26,6 @@ class FoundationServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->register(\Onsigbaar\Components\LaravelModulesServiceProvider::class);
         $this->app->register(\Onsigbaar\Foundation\HttpResponse\Providers\JsendResponseMacroServiceProvider::class);
-
-        // Load the Facade aliases
-        $loader = AliasLoader::getInstance();
-        $loader->alias('Component', \Onsigbaar\Components\Facades\Module::class);
     }
 }
